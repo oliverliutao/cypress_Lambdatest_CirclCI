@@ -1,0 +1,16 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "try cypress features",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run --record --key 0a404374-6ad2-4715-a6f0-e19537464655",
+    "dotest": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  }
+}
